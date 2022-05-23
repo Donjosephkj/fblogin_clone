@@ -1,0 +1,23 @@
+.left-section{
+    width: 50%;
+    height: 600px;
+    float: left;    
+}
+.right-section{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+.main-body{
+    width: 100%;
+    height: 600px;
+    background: rgb(237 237 237);
+}
+body{
+    margin: 0px;
+}
+.fb-logo{
+    height: 106px;
+    margin: 157px;
+    margin-top: 176px;
+}
