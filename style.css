@@ -21,3 +21,19 @@ body{
     margin: 157px;
     margin-top: 176px;
 }
+.para{
+    margin-left: 184px;
+    margin-top: -169px;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+}
+.login-box{
+    height: 350px;
+    width: 392px;
+    border-radius: 12px;
+    background: #fff;
+    margin-left: 91px;
+    margin-top: 131px;
+    
+}
