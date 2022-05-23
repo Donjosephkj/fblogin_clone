@@ -15,6 +15,7 @@
 }
 body{
     margin: 0px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
 .fb-logo{
     height: 106px;
@@ -26,7 +27,7 @@ body{
     margin-top: -169px;
     font-size: 28px;
     font-weight: 500;
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+
 }
 .login-box{
     height: 350px;
@@ -35,5 +36,91 @@ body{
     background: #fff;
     margin-left: 91px;
     margin-top: 131px;
+    box-shadow: 1px 2px 10px rgb(173, 173, 173);
     
+}
+.input-text1{
+    font-size: 16px;
+    margin: 16px;
+    width: 353px;
+    height: 47px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-width: 1px;
+}
+.input-text2{
+    font-size: 16px;
+    margin-left: 16px;
+    width: 353px;
+    height: 47px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(230, 230, 230);
+    border-width: 1px;
+}
+::placeholder{
+   padding-left: 15px;
+}
+.login-button{
+    width: 358px;
+    height: 47px;
+    margin-left: 16px;
+    margin-top: 16px;
+    background: #1877f2;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.login-button:hover{
+    background: #2c67bb;
+}
+.forgot-password{
+    text-align: center;
+    margin-top: 15px;
+}
+.forgot-link{
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 13px;
+}
+.forgot-link:hover{
+    text-decoration: underline;
+}
+.line{
+    width: 353px;
+    height: 1px;
+    background: #d9d9d9;
+    margin-left: 19px;
+    margin-top: 16px;
+}
+.new-acctbtn{
+    background: #3ec33e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    width: 198px;
+    height: 47px;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 7px;
+}
+.new-acctbtn:hover{
+    background: #329b32;
+}
+.text{
+    margin-top: 40px;
+    margin-left: 124px;
+    font-size: 15px;
+}
+.professional-page{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.professional-page:hover{
+    text-decoration: underline;
 }
